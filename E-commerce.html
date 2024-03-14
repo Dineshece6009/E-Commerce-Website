@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="E-commerce.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar-header">
+      <img
+        src="/image/creative-fashion-logo-design-sign-with-lettering-vector-24176934.jpg"
+        style="width: 70px; height: 70px"
+        alt="fashion_logo"
+      />
+      <h1 class="title">D fashion</h1>
+      <div class="navbar-links">
+        <ul>
+          <a href="#"onClick="window.location.reload()"><li class="navbar-link">Home</li></a>
+          <a href="Collection.html"><li class="navbar-link">Collections</li></a>
+          <a href="#FooterDown"><li class="navbar-link">Contact</li></a>
+        </ul>
+      </div>
+      <div class="menu" onclick="menu()">
+        <box-icon name="menu" rotate="180"></box-icon>
+      </div>
+    </nav>
+    <div class="navbar-side">
+      <p class="x-symbol" onclick="sideclose()">
+        <box-icon name="x-circle"></box-icon>
+      </p>
+      <div class="navbar-sidelinks">
+        <ul>
+          <a href="#"><li class="navbar-sidelink">Home</li></a>
+          <a href="Collection.html"><li class="navbar-sidelink">Collections</li></a>
+          <a href="#FooterDown"><li class="navbar-sidelink">Contact</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="header">
+      <div>
+        <h1>Level up your style</h1>
+        <p>with our stunning Collection</p>
+        <button id="butn">
+          Shop Now
+          <box-icon
+            class="box-icon"
+            name="right-arrow-square"
+            type="solid"
+            animation="fade-right"
+            color="#462e1c"
+            style="width: 40px; height: 25px"
+          >
+          </box-icon>
+        </button>
+      </div>
+      <div class="image">
+        <img
+          src="https://source.unsplash.com/random/300x300/?fashion"
+          alt="fashion"
+        />
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-Container-1">
+        <div>
+          <h2>We provide Best</h2>
+          <h2>Customer Experience</h2>
+        </div>
+        <div>
+          <p>
+            || We ensure that our Customer have the best shopping experience
+          </p>
+        </div>
+      </div>
+      <div class="service-Container-2">
+        <div class="box-2">
+          <i
+            ><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAh5JREFUSEvFVr0yhEEQ7HsAVR6BUChQQmQyqQwBIrESIRVLCPyEXkGCjEAq5R08ANVXM1/1zc3et6tc3Vapc/ftN90z09s7A8xoDWaEi78ALwBYB8DPLyPOz+eWJGqBCbIL4HRCcAe/ryHRB1wDGLk4gXOpyBjfScAEfbKS+oss54tlxP+17GvWAt9LAhsl8BIwA34KTQbZqyhhJFsELwEzUwqIiyU7axBObE8KngHfmpD+Aqr8SNbFeGcV655HYGbJbLnIdLEh07iVmTMJxhxrVQTWbCmMprOZkFStMBZjDlcEpqC4OZbmAMA2gDcAJ41VcL2MVFCBtcwqqCUAHwJ2COA6Ad8EsAzgEcC7PNded1VUYDoTS83Fo8OsuVYBvEqgYwAX8n3ewFbkt0sAR/ZdE+riloApKvdhvn8FYN96vgXgW0BuomLtGVvzYK1zT+gqqcBakgjc2Nbh9jkh+BMrWerxfyjayaYtrBFXS7Z6Vfp7aSUVuHjmzAQoPF55Jfvk7zuJp6s3dHjxHOuZ80shGj+NQK88qpbWyH1cel5V0SPeEIE1aw2QXZFZC6I16mUzopu+S0JZEpyZ+dgTgaPbNV0SDKbZMYOsrwR38+c7bjaZoNLLZtqDAImkR7Nl9CFz//PxxyvE7LPRpzi1TGPYI5neqaUP2HvmwqILlZbrgf1Wn0/31wIrAZLwM+tONbWBvsU2q/a2ZlwVtGbTL6gCkh9V0iOWAAAAAElFTkSuQmCC"
+          /></i>
+          <h4>Satisfaction Guaranteed</h4>
+          <p>
+            Consumers are now immune to generic guarantees that say <br />“If
+            you’re not satisfied with our product, return it within 30 days.”
+          </p>
+        </div>
+        <div class="box-2">
+          <i><img src="image/clothes.png" width="30px" /></i>
+          <h4>New Arrival Everyday</h4>
+          <p>
+            Shop online for new arrivals and get free shipping<br />“A brand-new
+            dress for every occasion shop our latest arrivals today!”
+          </p>
+        </div>
+        <div class="box-3">
+          <i
+            ><box-icon
+              name="shopify"
+              type="logo"
+              animation="tada"
+              style="width: 30px; height: 30px"
+            ></box-icon
+          ></i>
+          <h4>Fast & Free Shipping</h4>
+          <p>
+            Get Free Shipping on all orders! <br />“Limited Time Offer!” or
+            “Don’t Miss This!”
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="style">
+      <h2 >New Arrival</h2>
+      <div class="New-arrival">
+       <div class="New-arrival-container">
+        <img
+          src="https://source.unsplash.com/random/200x200/?fashion?1"
+          alt="Fashion"
+        />
+        <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+       </div>
+        <div class="New-arrival-container">
+        <img
+          src="https://source.unsplash.com/random/200x200/?fashion?2"
+          alt="Fashion"
+        />
+        <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+       <div class="New-arrival-container">
+        <img
+          src="https://source.unsplash.com/random/200x200/?fashion?3"
+          alt="Fashion"
+        />
+        <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+       </div>
+       <div class="New-arrival-container">
+        <img
+          src="https://source.unsplash.com/random/200x200/?fashion?4"
+          alt="Fashion"
+        />
+        <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      </div>
+    </div>
+    <div class="style">
+      <h2 >New Wanted</h2>
+      <div class="New-arrival">
+       <div class="New-arrival-container">
+        <img
+          src="https://source.unsplash.com/random/200x200/?fashion?5"
+          alt="Fashion"
+        />
+        <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+       </div>
+        <div class="New-arrival-container">
+        <img
+          src="https://source.unsplash.com/random/200x200/?fashion?6"
+          alt="Fashion"
+        />
+        <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+       <div class="New-arrival-container">
+        <img
+          src="https://source.unsplash.com/random/200x200/?fashion?7"
+          alt="Fashion"
+        />
+        <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+       </div>
+       <div class="New-arrival-container">
+        <img
+          src="https://source.unsplash.com/random/200x200/?fashion?8"
+          alt="Fashion"
+        />
+        <button>Shop Now<i  class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      </div>
+    </div>
+    <div class="footer" id="FooterDown">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h2 class="header-fashion">D Fashion</h2>
+
+        </div>
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-instagram" style="color:grey; ""></i></a>
+         <a href=""> <i class="fa-brands fa-whatsapp" style="color:grey;"></i></a>
+         <a href=""><i class="fa-brands fa-x-twitter" style="color:grey;"></i></a> 
+        </div>
+        <p><i class="fa-regular fa-envelope" style="font-size: 20px;"> </i> dfashion@gmail.com</p>
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script></p>
+      </div>
+    </div>
+
+    <script src="E-commerce.js"></script>
+  </body>
+</html>
